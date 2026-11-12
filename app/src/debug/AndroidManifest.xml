@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- debug 빌드 전용: 이 PC의 Claude 중계 서버(10.0.2.2:8787)에 접속한다. release 빌드에는 들어가지 않는다. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:networkSecurityConfig="@xml/network_security_config" tools:ignore="UnusedAttribute" />
+</manifest>

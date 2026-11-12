@@ -1,0 +1,8 @@
+[
+  {"id":"dog","summary":"반려견과 조용한 베이커리 카페를 즐겨 찾는다. 주차가 편한 곳을 선호한다.","requiredTags":["pet_ok"],"preferredTags":["pet_indoor","quiet","bakery","parking"],"visits":["동물병원 3회","양평 정원 카페 방문, 52분 체류, 좋아요 평가","가평 애견 동반 베이커리 2회"]},
+  {"id":"family","summary":"아이 둘과 이동한다. 유아 의자, 수유실, 넓은 주차장이 있는 곳을 고른다.","requiredTags":[],"preferredTags":["kids_chair","nursing_room","parking","meal"],"visits":["소아과 4회","키즈 브런치 카페 3회","수유실 있는 대형 식당 2회"]},
+  {"id":"solo","summary":"시간을 아끼는 편이다. 차에서 내리지 않는 드라이브스루를 자주 쓴다.","requiredTags":[],"preferredTags":["drive_through","fast","coffee"],"visits":["평일 드라이브스루 커피 12회","휴게소 평균 체류 6분"]},
+  {"id":"ev","summary":"장거리에서 충전 시간을 식사나 휴식으로 쓴다. 초급속 충전기를 선호한다.","requiredTags":[],"preferredTags":["ev_charging","meal","coffee"],"visits":["초급속 충전소 9회","충전 중 식사 5회"]},
+  {"id":"vegan","summary":"채식을 한다. 조용히 앉아서 식사할 수 있는 곳을 찾는다.","requiredTags":[],"preferredTags":["vegan","quiet","meal"],"visits":["비건 식당 7회","채식 베이커리 3회"]},
+  {"id":"new","summary":"","requiredTags":[],"preferredTags":[],"visits":[]}
+]

@@ -1,0 +1,12 @@
+[
+  {"id":"p01","name":"강변 브루 카페","category":"cafe","tags":["coffee","terrace","pet_ok"],"lat":37.3990,"lng":127.1130,"rating":4.3,"blurb":"강을 바라보는 테라스 카페예요. 테라스 자리는 반려견과 함께 앉을 수 있어요.","closesAt":"22:00","oppositeLane":false,"passed":true},
+  {"id":"p02","name":"여주 고속도로 휴게소","category":"rest_area","tags":["coffee","meal","fast","parking"],"lat":37.2900,"lng":127.6500,"rating":3.9,"blurb":"식사와 커피를 빠르게 해결할 수 있어요. 실내에는 반려견이 들어갈 수 없어요.","closesAt":"24:00","oppositeLane":false,"passed":false},
+  {"id":"p03","name":"남한강 애견카페","category":"cafe","tags":["coffee","pet_ok","pet_indoor","parking"],"lat":37.3010,"lng":127.6320,"rating":4.6,"blurb":"넓은 운동장이 있는 애견카페예요. 반대 방향에서만 들어갈 수 있어요.","closesAt":"20:00","oppositeLane":true,"passed":false},
+  {"id":"p04","name":"횡성 급속충전 라운지","category":"ev","tags":["ev_charging","coffee","meal","fast","parking","pet_ok"],"lat":37.4800,"lng":127.9950,"rating":4.4,"blurb":"초급속 충전기 8기를 갖췄어요. 충전하는 동안 야외 좌석에서 쉴 수 있고 반려견도 함께할 수 있어요.","closesAt":"24:00","oppositeLane":false,"passed":false},
+  {"id":"p05","name":"소풍 키즈 브런치","category":"restaurant","tags":["meal","coffee","kids_chair","nursing_room","parking"],"lat":37.4950,"lng":127.9800,"rating":4.5,"blurb":"수유실과 유아 의자가 있고 주차장이 넓어요. 아이와 쉬어 가기 좋아요.","closesAt":"21:00","oppositeLane":false,"passed":false},
+  {"id":"p06","name":"숲속정원 카페","category":"cafe","tags":["coffee","meal","bakery","pet_ok","pet_indoor","quiet","parking"],"lat":37.4900,"lng":127.9900,"rating":4.7,"blurb":"숲에 둘러싸인 조용한 베이커리 카페예요. 실내에서도 반려견과 함께할 수 있어요.","closesAt":"20:00","oppositeLane":false,"passed":false},
+  {"id":"p07","name":"횡성 한우 정식","category":"restaurant","tags":["meal","kids_chair","parking"],"lat":37.4860,"lng":127.9840,"rating":4.4,"blurb":"횡성 한우 정식 전문점이에요. 유아 의자가 있고 점심에는 대기가 길어요.","closesAt":"21:00","oppositeLane":false,"passed":false},
+  {"id":"p08","name":"횡성 드라이브스루 커피","category":"cafe","tags":["coffee","drive_through","fast","pet_ok"],"lat":37.4780,"lng":128.0020,"rating":4.2,"blurb":"차에서 내리지 않고 주문해요. 수령까지 3분이면 되고 반려견과 함께 이용하기 편해요.","closesAt":"22:00","oppositeLane":false,"passed":false},
+  {"id":"p09","name":"횡성 비건 키친","category":"restaurant","tags":["meal","vegan","quiet","parking"],"lat":37.4720,"lng":127.9820,"rating":4.6,"blurb":"모든 메뉴가 채식이에요. 예약 없이 조용하게 식사할 수 있어요.","closesAt":"21:00","oppositeLane":false,"passed":false},
+  {"id":"p10","name":"대관령 전망 카페","category":"cafe","tags":["coffee","view","bakery","parking"],"lat":37.6880,"lng":128.7200,"rating":4.8,"blurb":"대관령 능선이 한눈에 보이는 전망 카페예요. 오후 4시에 문을 닫아요.","closesAt":"16:00","oppositeLane":false,"passed":false}
+]

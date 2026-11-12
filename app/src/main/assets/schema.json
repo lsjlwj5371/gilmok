@@ -1,0 +1,48 @@
+{
+  "packageName": "com.gilmok.app",
+  "appDescription": "Finds personalized stops along the current navigation route and adds the chosen one as a waypoint.",
+  "invokeWord": "길목",
+  "version": "0.1.0",
+  "actionCalls": [
+    {
+      "type": "function",
+      "function": {
+        "name": "FIND_STOPS_ON_ROUTE",
+        "description": "Search places along the current route and recommend up to three that fit the user's request and personal history, ranked by fit and added travel time.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "userRequest": {
+              "type": "string",
+              "description": "The user's request about where to stop, kept in the user's original language."
+            },
+            "maxDetourMinutes": {
+              "type": "number",
+              "description": "The largest extra travel time in minutes the user accepts, when the user states one."
+            }
+          },
+          "required": ["userRequest"]
+        },
+        "component": "activity"
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ADD_STOP_TO_ROUTE",
+        "description": "Add one of the recommended places to the current route as a waypoint.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rank": {
+              "type": "number",
+              "description": "The position of the chosen place in the latest recommendation list, starting from 1."
+            }
+          },
+          "required": ["rank"]
+        },
+        "component": "activity"
+      }
+    }
+  ]
+}
